@@ -1,0 +1,311 @@
+.header {
+    width: 100%;
+	background:white;
+    
+}
+.h-top{
+  zoom: 1; 
+	position: relative; 
+	max-width:1333px;
+	height:60px;
+	margin:0px auto 0px;
+	z-index:90;
+	border:none;
+	text-align:left; 
+	background:bisque;
+	
+	
+}
+.h-top img{
+	float:right;
+	padding-top:5px;
+	padding-right:5px;
+}
+#wowslider-container1 { 
+	zoom: 1; 
+	max-width:1333px;
+	margin:0px auto 0px;
+	z-index:90;
+	border:none;
+	text-align:left; 
+	font-size: 10px;
+}
+.nav {
+  zoom: 1; 
+	position: relative; 
+	max-width:1333px;
+	height:40px;
+	margin:0px auto 0px;
+	z-index:90;
+	border:none;
+	text-align:left; 
+	background:bisque;
+	
+}
+.nav a:hover {
+  background-color: red;
+  color: white;
+}
+.mid-container {
+   zoom: 1; 
+	position: relative; 
+	max-width:1333px;
+	margin:0px auto 0px;
+	z-index:90;
+	border:none;
+	text-align:left; 
+	background:Cornsilk;
+}
+
+
+.footer {
+   zoom: 1; 
+	position: relative; 
+	max-width:1333px;
+	margin:0px auto 0px;
+	z-index:90;
+	border:none;
+	text-align:center; /* reset align=center */
+	background:Bisque;
+	margin-top:15px;
+	height:50px;
+	padding-top:15px;
+}
+
+
+* html #wowslider-container1{ width:1333px;}
+#wowslider-container1 .ws_images ul{
+	position:relative;
+	width: 10000%; 
+	height:auto;
+	left:0;
+	list-style:none;
+	margin:0;
+	padding:0;
+	border-spacing:0;
+	overflow: visible;
+	/*table-layout:fixed;*/
+}
+#wowslider-container1 .ws_images ul li{
+	width:1%;
+	line-height:0; /*opera*/
+	float:left;
+	font-size:0;
+	padding:0 0 0 0 !important;
+	margin:0 0 0 0 !important;
+}
+
+#wowslider-container1 .ws_images{
+	position: relative;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+#wowslider-container1 .ws_images a{
+	width:100%;
+	display:block;
+	color:transparent;
+}
+#wowslider-container1 img{
+	max-width: none !important;
+}
+#wowslider-container1 .ws_images img{
+	width:100%;
+	border:none 0;
+	max-width: none;
+	padding:0;
+	margin:0;
+}
+
+
+
+#wowslider-container1  .wsl{
+	display:none;
+}
+#wowslider-container1 sound, 
+#wowslider-container1 object{
+	position:absolute;
+}
+
+
+
+
+#wowslider-container1 .ws-title div{
+	margin-top:0.25em;
+	font-size: 1.6em;
+	font-weight: normal;
+}
+#wowslider-container1 .ws-title span{
+	font-size: 2em;
+	line-height: 1em;
+}#wowslider-container1 .ws_images ul{
+	animation: wsBasic 16s infinite;
+	-moz-animation: wsBasic 16s infinite;
+	-webkit-animation: wsBasic 16s infinite;
+}
+
+#wowslider-container1 .ws_images {
+	border-radius:5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+
+
+
+
+
+.wrapper {
+	width: 1000px;
+	margin: auto;
+}
+
+
+
+  
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+.nav ul li  {
+	display: inline-block;
+	width: 30%;
+	text-align:center;
+	padding-top:10px;
+	margin-right: 3%;
+	text-decoration:none;
+}
+.nav ul li a{
+	text-decoration:none;
+	color:black;
+}
+
+.service-head h2{
+	color: #16a085;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	padding-bottom: 45px;
+	text-align:center;
+}
+
+
+.portfolio ul {
+}
+.portfolio ul li{
+	display: inline-block;
+	width: 20%;
+	height: 240px;
+	margin-right: 3%;
+
+	
+}
+
+.portfolio ul  li h3 p{
+	width: 100%;
+	height: 100%;
+}
+.portfolio ul  li h3{
+	text-align:center;
+}
+.portfolio ul li p {
+	font-size: 14px;
+	line-height: 24px;
+	padding-left: 20px;
+
+}
+
+.cta-btn {
+	display: block;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #16a085;
+	width: 180px;
+	height: 40px;
+	text-align: center;
+	line-height: 42px;
+	border-radius: 3px;
+	margin: 30px auto 0px;
+}
+.brief  h3{
+	color: #16a085;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	padding-top: 25px;
+	text-align:center;
+	color:white;
+}
+
+.brief  p {
+	font-size: 20px;
+	line-height: 24px;
+	padding-left: 125px;
+	padding-right: 125px;
+	text-align:center;
+	color:white;
+	padding-bottom:25px;
+}
+.brief-back{
+	background:red;
+}
+.portfolio-about ul li{
+	display: inline-block;
+	width: 30%;
+	height: 270px;
+	margin-right: 3%;
+}
+.portfolio-about ul  li img{
+	width: 100%;
+	height: 93%;
+}
+.relative{
+	position:relative; 
+	width:100%;}
+.absolute-text{
+	position:absolute; 
+	right:0px;
+	bottom:0px; 
+	background:rgba(351,0,0,0.8);
+	padding:10px 0px; 
+	width:100%; 
+	text-align:center;
+	color:white;
+}
+.form-map ul li{
+	display: inline-block;
+	width: 45%;
+	
+}
+.map-head h2{
+	color: #16a085;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	text-align:center;
+	
+}
+
+.contact ul li{
+    display: inline-block;
+	width: 45%;
+	height:90px;
+	margin-right:3%;
+	text-align:center;
+	text-decoration: none;
+}
+.contact ul li  a{
+	
+	text-decoration: none;
+}
+
+
+		
